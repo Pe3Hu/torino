@@ -1,0 +1,11 @@
+res://scene/game/Game.tscn
+res://script/Classes_0.gd
+res://scene/1/segeltuch.tscn
+res://scene/1/loch.tscn
+res://script/Global.gd
+res://scene/1/loch.gd
+res://script/Classes_1.gd
+res://scene/game/Game.gd
+res://scene/1/segeltuch.gd
+res://scene/1/grenze.tscn
+res://scene/1/grenze.gd

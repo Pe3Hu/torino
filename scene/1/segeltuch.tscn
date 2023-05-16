@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfpuqxsn0p53i"]
+
+[ext_resource type="Script" path="res://scene/1/segeltuch.gd" id="1_0xqwx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cehpy"]
+size = Vector2(200, 20)
+
+[node name="Segeltuch" type="MarginContainer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 6
+size_flags_vertical = 6
+script = ExtResource("1_0xqwx")
+
+[node name="Grenze" type="Node2D" parent="."]
+
+[node name="Axis" type="Node2D" parent="."]
+visible = false
+
+[node name="Grid" type="Node2D" parent="."]
+visible = false
+
+[node name="Loch" type="Node2D" parent="."]
+visible = false
+
+[node name="Canvas" type="Area2D" parent="."]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Canvas"]
+shape = SubResource("RectangleShape2D_cehpy")

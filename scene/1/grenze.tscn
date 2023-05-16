@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbcdap4j345hw"]
+
+[ext_resource type="Script" path="res://scene/1/grenze.gd" id="1_w703a"]
+
+[node name="Grenze" type="CharacterBody2D"]
+script = ExtResource("1_w703a")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
